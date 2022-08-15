@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  max-height: 100vh;
+  background: url("../images/bg-snack.png") no-repeat;
+}
+
+#root {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 13.5%;
+}
+
+#score {
+  position: fixed;
+  top: 22%;
+  left: 47%;
+  z-index: 10000;
+  font-size: 50px;
+}
+
+#score:before {
+  content: "Score: ";
+  font-size: 45px;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

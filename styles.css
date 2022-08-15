@@ -1,0 +1,17 @@
+body {
+  background-size: cover;
+  background: url("../images/bg-snack.png") no-repeat;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+#score {
+  position: fixed;
+  margin-top: 15%;
+  z-index: 10000;
+}
+
+/*# sourceMappingURL=styles.css.map */
